@@ -3,9 +3,290 @@ body{
     margin: 0;
 }
 .pay-method{
-    border: 1px solid red;
     height: 172px ;
     width: 990px;
     border-radius:20px;
+    padding: 1em;
+}
+.pay-container{ 
+    padding-bottom: 1.7em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pay-method-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 112.5px;
+    height: 20px;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2D3748;
+}
+.pay-button-box{
+    width: 135px;
+    height: 35px;
+    background-color: #2D3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.pay-button-link{
+    background-color: #2D3748;
+    border: none;
+    width: 89px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.bank-conainer{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+}
+.bank-container-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.bank-list-info{
+   border-radius: 8px; 
+   border: 1px #E2E8F0 solid;
+   width: 486px;
+   height: 45px;
+   display: flex;
+   align-items: center;
+   padding: 0.5em;
+}
+
+.card-number{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #A0AEC0;
+}
+
+.count{
+    padding: 2em;
+    border-radius: 20px;
+    width: 572px;
+    height: 436px;
+}
+
+.count-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.count-method-box{
+    width: 112.5px;
+    height: 20px;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2D3748;
+}
+.count-link-box{
+    width: 110px;
+    height: 35px;
+    border: 1px solid #3182CE;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3182CE;
+    text-decoration: none;
+}
+.count-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
 }
+.count-pdf-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.count-data{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2D3748;
+}
+.count-material-info{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #A0AEC0;
+}
+.count-image{
+    width: 15px;
+    height: 15px;
+}
+.count-pdf-info{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #2D3748;
+}
+.count-count{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: right;
+    color: #A0AEC0;
+}
+
+.container-filling{
+    width: 100%;
+    height: 308px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.count-list{
+    padding-bottom: 1.5em;
+}
+.header{
+    padding: 0.4em;
+    width: 100%;
+    background-color: #3182CE;
+
+}
+.header-box{
+    width: 1900px;
+    height: 414px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #3182CE;
+}
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 44.5px;
+}
+.header-nav-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+.nav-registrate{
+    margin: 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-header-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.nav-text1{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.nav-text2{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.header-input-box{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 40px;
+}
+.header-input{
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #A0AEC0;
+}
+.card-input{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #A0AEC0;
+    border: none;
+}
+

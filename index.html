@@ -1,14 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>maket</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <section class="pay-method">
-        <div class="pay-method-box"><p>Способ оплаты</p></div>
+        <div class="pay-container">
+            <p class="pay-method-box">Способ оплаты</p>
+            <div class="pay-button-box"><button class="pay-button-link" href="">Добавить</button></div>
+        </div>
+        <div class="bank-conainer">
+            <div class="bank-list-info">
+                <ul class="bank-container-list">
+                    <li><img src="svg/master-card.svg" alt=""></li>
+                    <li class="card-number"><input class="card-input" type="text" placeholder="7812 2139 0823 XXXX"></li>
+                    <li><img src="svg/pen.svg" alt=""></li>
+                </ul>
+            </div>
+            <div class="bank-list-info">
+                <ul class="bank-container-list">
+                    <li><img src="svg/visa.svg" alt=""></li>
+                    <li class="card-number"><input class="card-input"  type="text" placeholder="7812 2139 0823 XXXX"></li>
+                    <li><img src="svg/pen.svg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="count">
+        <div class="count-container">
+            <div class="">
+                <p class="count-method-box">Счета</p>
+            </div>
+            <div class="count-link-box"><a class="count-link" href="">Посмотреть все</a></div>
+        </div>
+        <ul class="container-filling">
+            <li class="count-list">
+                <div class="count-box">
+                    <div>
+                        <p class="count-data">Март, 01, 2020</p>
+                        <p class="count-material-info">#MS-415646</p>
+                    </div>
+                    <div class="count-pdf-info">
+                        <p class="count-count">₽180</p><img class="count-image" src="svg/file.svg" alt="">
+                        <p class="count-pdf-info">PDF</p>
+                    </div>
+                </div>
+            </li>
+            <li class="count-list">
+                <div class="count-box">
+                    <div>
+                        <p class="count-data">Февраль, 10, 2021</p>
+                        <p class="count-material-info">#RV-126749</p>
+                    </div>
+                    <div class="count-pdf-info">
+                        <p class="count-count">₽250</p><img class="count-image" src="svg/file.svg" alt="">
+                        <p class="count-pdf-info">PDF</p>
+                    </div>
+                </div>
+            </li>
+            <li class="count-list">
+                <div class="count-box">
+                    <div>
+                        <p class="count-data">Апрель, 05, 2020</p>
+                        <p class="count-material-info">#FB-212562</p>
+                    </div>
+                    <div class="count-pdf-info">
+                        <p class="count-count">₽560</p><img class="count-image" src="svg/file.svg" alt="">
+                        <p class="count-pdf-info">PDF</p>
+                    </div>
+                </div>
+            </li>
+            <li class="count-list">
+                <div class="count-box">
+                    <div>
+                        <p class="count-data">Июнь, 25, 2019</p>
+                        <p class="count-material-info">#QW-103578</p>
+                    </div>
+                    <div class="count-pdf-info">
+                        <p class="count-count">₽120</p><img class="count-image" src="svg/file.svg" alt="">
+                        <p class="count-pdf-info">PDF</p>
+                    </div>
+                </div>
+            </li>
+            <li class="count-list">
+                <div class="count-box">
+                    <div>
+                        <p class="count-data">Март, 01, 2019</p>
+                        <p class="count-material-info">#AR-803481</p>
+                    </div>
+                    <div class="count-pdf-info">
+                        <p class="count-count">₽300</p><img class="count-image" src="svg/file.svg" alt="">
+                        <p class="count-pdf-info">PDF</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="header">
+        <div class="header-nav">
+            <div class="nav-header-text">
+                <p class="nav-text1">Страницы / Выставление счетов</p>
+                <p class="nav-text2">Выставление счетов</p>
+            </div>
+            <ul class="header-nav-list">
+                <li><div class="header-input-box"><img src="svg/lupa.svg" alt=""><input class="header-input" type="text" placeholder="Введите"></div></li>
+                <li><img src="svg/people.svg" alt="">
+                <li><a href="#" class="nav-registrate">Войти</a></li>  
+                </li>
+                <li><img src="svg/gear.svg" alt=""></li>
+                <li><img src="svg/bell.svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="header-box"></div>
     </section>
 </body>
+
 </html>
